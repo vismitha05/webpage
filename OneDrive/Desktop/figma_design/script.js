@@ -52,14 +52,14 @@ const Header = (() => {
 const Gallery = (() => {
   // 8 slides: alternate between main and thumb with CSS filters for variety
   const slides = [
-    { src: 'Group 1000004093.png',  alt: 'Rose — front view',    variant: 'none'   },
-    { src: 'Group 1000004277.png', alt: 'Amber — angle view',   variant: 'amber'  },
-    { src: 'Group 1000004093.png',  alt: 'Musk — bottle detail', variant: 'musk'   },
-    { src: 'Group 1000004277.png', alt: 'Jasmine — cap detail', variant: 'jasmine'},
-    { src: 'Group 1000004093.png',  alt: 'Coral — side view',    variant: 'coral'  },
-    { src: 'Group 1000004277.png', alt: 'Violet — lifestyle',   variant: 'violet' },
-    { src: 'Group 1000004093.png',  alt: 'Amber — close-up',     variant: 'orange' },
-    { src: 'Group 1000004277.png', alt: 'Red — front detail',   variant: 'red'    },
+    { src: 'perfume-main.png',  alt: 'Rose — front view',    variant: 'none'   },
+    { src: 'perfume-thumb.png', alt: 'Amber — angle view',   variant: 'amber'  },
+    { src: 'perfume-main.png',  alt: 'Musk — bottle detail', variant: 'musk'   },
+    { src: 'perfume-thumb.png', alt: 'Jasmine — cap detail', variant: 'jasmine'},
+    { src: 'perfume-main.png',  alt: 'Coral — side view',    variant: 'coral'  },
+    { src: 'perfume-thumb.png', alt: 'Violet — lifestyle',   variant: 'violet' },
+    { src: 'perfume-main.png',  alt: 'Amber — close-up',     variant: 'orange' },
+    { src: 'perfume-thumb.png', alt: 'Red — front detail',   variant: 'red'    },
   ];
 
   // CSS filter map for the main image display
